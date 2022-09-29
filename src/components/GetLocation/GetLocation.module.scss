@@ -1,0 +1,18 @@
+.GeoStyle {
+
+
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+    color: purple;
+
+    .GeoStyle__fontawesome {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+}
