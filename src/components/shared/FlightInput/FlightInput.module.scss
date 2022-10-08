@@ -1,0 +1,139 @@
+.FlightForm {
+
+    div { width: 100%; height: 100% }
+
+    button {
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+        border: none;
+        background-color: inherit;
+    }
+
+   @media (min-width: 570px) {
+        display: flex;
+        align-items: center;
+        height: 35px;
+        padding: 5px;
+        width: 100%;
+
+        background-color: white;
+
+        border-radius: 10px;
+
+        input {
+            outline: none;
+            border: none;
+            height: 100%;
+        }
+
+
+        .btn__Submit {
+            background-color: rgb(0, 123, 224);
+            border: none;
+            padding: 0 20px;
+            border-radius: 0 10px 10px 0;
+            color: white;
+        }
+
+        .dropdown {
+
+            ul {
+                background-color: white;
+                border-radius: 10px;
+                position: relative;
+                padding: 10px;
+            }
+        
+            li {
+                list-style-type: none;
+                font-size: 12px;
+                width: 100%;
+                padding: 3px 0;
+                cursor: pointer;
+            }
+        }
+           
+    }
+
+    @media (max-width: 570px) {
+        display: block;
+
+        input {
+            width: 100%;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            background: white;
+            padding: 10px 10px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }
+
+        .btn__Submit {
+            width: 100%;
+            background-color: rgb(0, 123, 224);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        button {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+        }     
+
+        .dropdown {
+            
+            ul {
+                background-color: white;
+                border-radius: 10px;
+                position: absolute;
+                padding: 10px;
+            }
+        
+            li {
+                list-style-type: none;
+                font-size: 12px;
+                width: 100%;
+                padding: 3px 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    
+    .dropdownCalender {
+        ul {
+            background-color: white;
+            border-radius: 10px;
+            position: relative;
+            padding: 10px;
+        }
+    
+        li {
+            list-style-type: none;
+            font-size: 12px;
+            padding: 3px 0;
+            cursor: pointer;
+        }
+       }
+
+}
+
+.btn__hint {
+    margin-top: 10px;
+
+    span, button { font-size: 13px }
+
+    button {
+        color: purple;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
+    }
+}
